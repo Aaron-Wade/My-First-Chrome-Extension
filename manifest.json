@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "MyFirstChromeExtension",
+    "description": "A simple Chrome extension that adds a background animation to the browser using p5.js",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": ["http://*/*"],
+        "matches": ["https://*/*"],
+        "js": ["libraries/p5.js", "libraries/p5.dom.js", "sketch.js"]
+      }
+    ]
+}
