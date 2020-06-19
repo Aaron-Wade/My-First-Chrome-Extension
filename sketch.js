@@ -38,6 +38,7 @@ let sketch = function(p) {
 		}
 	}
 
+	// TODO: Figure out why this isn't working
 	p.windowResized = function() {
 		// Resize canvas with window
 		p.canvas.size(p.windowWidth, p.windowHeight);
